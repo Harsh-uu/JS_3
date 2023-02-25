@@ -29,14 +29,26 @@
 
 // console.log(newList);
 
+// let person = {
+//     name: "Harsh"
+// }
+
+// let newPerson = {
+//     ...person,
+//     city: "Noida"
+// }
+
+
+// console.log(newPerson);
+
 let person = {
-    name: "Harsh"
+    name: "Harsh",
+    age: 19
 }
 
-let newPerson = {
-    ...person,
-    city: "Noida"
-}
+let person2 = person;
 
+person2.name = "Gupta"
 
-console.log(newPerson);
+console.log(person);
+console.log(person2);
