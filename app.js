@@ -41,14 +41,26 @@
 
 // console.log(newPerson);
 
-let person = {
-    name: "Harsh",
-    age: 19
-}
+// let person = {
+//     name: "Harsh",
+//     age: 19
+// }
 
-let person2 = person;
+// let person2 = {
+//     ...person
+// }
 
-person2.name = "Gupta"
+// person2.name = "Gupta"
 
-console.log(person);
-console.log(person2);
+// console.log(person);
+// console.log(person2);
+
+//map
+
+let array1 = [2, 5, 7, 10];
+
+let array2 = array1.map(function(x){
+    return x*2;
+});
+
+console.log(array2);
